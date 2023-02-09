@@ -1,0 +1,421 @@
+@font-face{
+    font-family: MalayalamMN;
+    src:url(../fonts/Malayalam\ MN.ttc);
+}
+@font-face {
+    font-family: firaGo;
+    src: url(../fonts/FiraGO-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: openSansRegular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: firaGoLight;
+    src: url(../fonts/FiraGO-Light.ttf);
+}
+@font-face {
+    font-family: andadaPro;
+    src: url(../fonts/AndadaPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: mediumItalic;
+    src: url(../fonts/AndadaPro-MediumItalic.ttf);
+}
+@font-face {
+    font-family: firaGoRegular;
+    src: url(/assets/fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: andadaItalic;
+    src: url(/assets/fonts/AndadaPro-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: poppinsMedium;
+    src: url(/assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsItalic;
+    src: url(/assets/fonts/Poppins-LightItalic.ttf);
+}
+
+html{
+    background-color: #F5F5F5;
+}
+
+header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 87px;
+}
+
+a{
+    color: black;
+}
+
+h2{
+    font-family: MalayalamMN;
+    font-size: 26px;
+}
+
+.header-ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.left{
+    margin: 0 52px;
+}
+
+.right{
+    margin-right:52px;
+}
+
+.header-list{
+    display: inline-flex;
+    margin-right: 367px; 
+    margin-left: 270px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.user-logo{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products-title{
+    font-family: firaGo;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.products{
+    display: inline-flex;
+    padding-top: 65px;
+    margin-left: 67px;
+}
+
+.product-content{
+    border: 1px solid black;
+    width: 333px;
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+    padding-left: 26px;
+}
+
+.picture-one{
+    padding-top: 11px;
+} 
+
+h3{
+    font-family: poppinsBold;
+    font-size: 16px;
+}
+
+p{
+    font-family: poppinsRegular;
+    font-size: 14px;
+}
+
+.footer-button{
+    width: 118px;
+    height: 30px;
+    font-family: poppinsRegular;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.product-footer{
+    text-align: right;
+    padding-top: 23px;
+    padding-bottom: 68px;
+}
+
+.footer-list{
+    font-size: 14px;
+    font-family: openSansRegular;
+    text-align: left;
+}
+
+.product-wrapper-two{
+    margin: 0 105px;
+}
+
+.section-footer{
+    font-size: 16px;
+    font-family: firaGoLight;
+    text-align: right;
+    padding-top: 39px;
+    padding-right: 67px;
+    padding-bottom: 61px;
+}
+
+h1{
+    font-family: andadaPro;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    color: #7D0000;
+
+}
+
+.about-us-section{
+    display: inline-flex;
+}
+
+.div-about-us{
+    background-color: #F5F5F5   ;
+    width: 650px;
+    height: 323px;
+    padding-top: 115px;
+    padding-left: 100px;
+    padding-right: x;
+}
+
+.about-us{
+    font-family: andadaPro;
+    font-size: 25px;
+    line-height: 41.25px;
+}
+
+.adress-about{
+    font-family: mediumItalic;
+    font-size: 25px;
+    padding-top: 99px;
+    margin-left: 308px;
+}
+
+.image-about{
+    padding-top: 185px;
+}
+
+
+.upper-section{
+    display: inline-flex;
+
+}
+
+.mail{
+    font-family: andadaItalic;
+    font-size: 27px;
+    color: #0B253E;
+
+}
+
+.number{
+    font-family: andadaPro;
+    font-size: 27px;
+    color: #0B253E;
+    padding-top: 34px;
+}
+
+.adress{
+    font-family: andadaPro;
+    font-size: 27px;
+    color: #0B253E;
+}
+
+.time{
+    font-family: andadaPro;
+    font-size: 27px;
+    color: #0B253E;
+    padding-top: 34px;
+}
+
+
+.left-right{
+    display: inline-flex;
+    padding-top: 119px;
+    margin-left: 220px;
+}
+
+.left-section{
+    margin-right: 353px;
+}
+
+iframe{
+    border-radius: 16px;
+    padding-top: 144px;
+    padding-left: 220px;
+    padding-bottom: 193px;
+}
+
+.user{
+    padding-left: 206px;
+    padding-top: 196px;
+    
+}
+
+.about-image{
+    margin-left: 65px;
+}
+
+.username{
+    display: inline-flex;
+}
+    
+h4{
+    font-family: poppinsMedium;
+    font-size: 30px;
+}
+
+.lorem{
+    font-family: poppinsItalic;
+    color: #546CCC;
+    font-size: 22px;
+}
+
+h5{
+    padding-left: 36px;
+}
+
+.about-border{
+    font-family: poppinsMedium;
+    font-size: 24px;
+    border-bottom: 1px solid #7D0000;
+    width: 125px;
+}
+
+.about-user{
+    display: inline-flex;
+    padding-top: 58px;
+}
+
+.info-one{
+    font-family: poppinsBold;
+    font-size: 20px;
+}
+
+.info-two{
+    font-family: poppinsMedium;
+    font-size: 20px;
+}
+
+.middle{
+    padding: 30px 0;
+}
+
+.info-container{
+    margin-right: 163px;
+}
+
+.edit-info{
+    border: 1xp solid black;
+    background-color: #87AC87;
+    width: 265px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 956px;
+    margin-top: 25px;
+    margin-bottom: 146px;
+}
+
+.edit{
+    font-family: poppinsMedium;
+    font-size: 25px;
+    text-align: center;
+    color:#FFFFFF;
+    padding-top: 16px;
+}
+
+
+.blog-list{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 430px;
+}
+
+.categories{
+    font-family: firaGo;
+    font-size: 18px;
+    padding-top: 93px;
+}
+
+.options{
+    margin-right: 65px;
+}
+
+h6{
+    font-size: 18px;
+    font-family: firaGo;
+    padding-left: 36px;
+}
+
+.image-paragraph{
+    border: 1xp solid #E5EBE5;
+    width: 850px;
+    height: 124px;
+    color: #474747;
+    padding-left: 36px;
+    padding-bottom: 12px;
+}
+
+.blog-title{
+    font-family: firaGoRegular;
+    font-size: 24px;
+    padding-top: 47px;
+    margin-left: 50px;
+}
+
+.articles{
+    padding-top: 68px;
+    padding-left: 50px;
+}
+
+.article-one{
+    display: inline-flex;
+}
+
+.article-two{
+    display: inline-flex;
+}
+
+.image-article-one{
+    background-color: #E5EBE5;
+    width: 918px;
+    height: 228px;
+    font-family: firaGoLight;
+    font-size: 14px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 22px;
+}
+
+.image-article-two{
+    background-color: #E5EBE5;
+    width: 918px;
+    height: 228px;
+    font-family: firaGoLight;
+    font-size: 14px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 22px;
+}
+
+.footer-border{
+   border: 1px solid black;
+   width: 174px;
+   height: 40px;
+   border-radius: 4px;
+   margin: 14px 0 63px 1072px;
+}
+
+.article-footer{
+    font-family: firaGoRegular;
+    font-size: 12px;
+    text-align: center;   
+}
+
